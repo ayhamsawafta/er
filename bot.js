@@ -45,8 +45,8 @@ client.on('ready', () => {
  
  
  
-const adminprefix = "prefix"; 
-const devs = ['id'];
+const adminprefix = "I"; 
+const devs = ['398792269072695296'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -75,4 +75,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
  
  
  
-client.login("token");
+client.login("Mzk4NzkyMjY5MDcyNjk1Mjk2.DrR-AQ.4OW9DVvHf8yXZ7dW0y5Fzs8HQ60");
